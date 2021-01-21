@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Glass Business Card</title>
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img src="img/avatar1.png" alt="avatar" />
+            <h3>Morena Nobre</h3>
+            <p>Cool Front-Dev</p>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li class="link">
+                <a
+                  href="https://www.linkedin.com/in/morenanobre/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/morenanobre/" target="_blank" class="social-text">Linkedin</a>
+              </li>
+              <li class="link">
+                <a href="https://github.com/MorenaNobre" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://github.com/MorenaNobre" target="_blank" class="social-text">Github</a>
+              </li>
+              <li class="link">
+                <a href="https://twitter.com/MorenaGrisa" target="_blank"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="https://twitter.com/MorenaGrisa" target="_blank" class="social-text">Twitter</a>
+              </li>
+              <li class="link">
+                <a href="mailto:morenagnobre@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="mailto:morenagnobre@gmail.com" target="_blank" class="social-text">E-mail</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pro">
+            <h2>Hello World!</h2>
+            <a href="#"><i class="fa fa-code" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <div class="codes">
+          <div class="status">
+            <h1>Frontend XP</h1>
+            <input type="text" />
+          </div>
+
+          <ul class="cards">
+            <li class="card">
+              <img src="img/css-3.svg" alt="css" />
+              <div class="card-info">
+                <h2>CSS Development</h2>
+                <p>projects</p>
+                <div class="progress css"></div>
+              </div>
+              <h2 class="percentage">92%</h2>
+            </li>
+
+            <li class="card">
+              <img src="img/html-5.svg" alt="css" />
+              <div class="card-info">
+                <h2>HTML Development</h2>
+                <p>projects</p>
+                <div class="progress html"></div>
+              </div>
+              <h2 class="percentage">86%</h2>
+            </li>
+
+            <li class="card">
+              <img src="img/javascript.svg" alt="css" />
+              <div class="card-info">
+                <h2>Javascript Dev</h2>
+                <p>projects</p>
+                <div class="progress js"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".glass"), {
+        max: 15,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
