@@ -43,8 +43,6 @@
 
 <p>Para o efeito de movimento do cartão foi utilizada uma <a href="https://micku7zu.github.io/vanilla-tilt.js/" target="_blank">biblioteca javascript </a> chamada vanilla-tilt.js.</p>
 
-<p>Você pode encontrar o processo da aplicação <a href="#" target="_blank">aqui! </a> Divirta-se!</p>
-
 <br>
 
 ## Tecnologias Utilizadas
